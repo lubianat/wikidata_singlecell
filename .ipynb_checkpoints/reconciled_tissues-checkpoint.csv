@@ -1,0 +1,108 @@
+0,predicted,match,label_language,label,description_language,description
+Sperm,Q17145,Q9715,,,,
+Bladder,Q9382,Q9382,,,,
+Thymus,Q131224,Q163987,,,,
+Joint,Q9644,Q9644,,,,
+Spine,Q482853,Q482853,,,,
+Mouth,Q1233637,Q9635,,,,
+Bone marrow,Q546523,Q546523,,,,
+Spleen,Q9371,Q9371,,,,
+Prostate,Q9625,Q9625,,,,
+Whole organism,Q34528428,-,,,,
+Epityphlon,,-,labels,,descriptions,
+Pleura,Q14123862,Q14123862,en,pleura,en,serous membrane that lines the wall of thoracic cavity and the surface of lung
+Nasal epithelium,Q66559633,Q66559633,en,nasal epithelium,en,epithelium of the nose
+Vasculature,Q66566650,Q66566650,en,vasculature,,
+Ureter,Q9385,Q9385,en,ureter,en,tubes used in the urinary system in most animals
+Spinal cord,Q9606,Q9606,en,spinal cord,en,"long, thin, tubular structure made up of nervous tissue"
+Lymph node,Q170758,Q170758,en,lymph node,en,organ of the lymphatic system
+ICM,Q679690,Q1335221,en,intensive care medicine,en,"medical care subspecialty, treating critically ill"
+Tongue,Q9614,Q9614,en,tongue,en,mobile organ located inside the mouth
+Omentum,Q1207493,Q1207493,en,omentum,en,double-layered fold of peritoneum that attaches the stomach to other organs in the abdominal cavity
+Ileum,Q233345,Q233345,en,ileum,en,"final section of the small intestine in mammals, reptiles, birds and some other vertebrates."
+Artery,Q9655,Q9655,en,artery,en,blood vessel that carry blood away from the heart
+Tumors,Q67742962,Q133212,en,Tumors,en,scientific article published on 01 February 1976
+Ascending colon,Q2562556,Q2562556,en,ascending colon,en,the part of the colon located between the cecum and the transverse colon
+Oocyte,Q3246226,Q3246226,en,oocyte,en,"female gametocyte or germ cell involved in reproduction. In other words, it is an immature ovum, or egg cell. An oocyte is produced in the ovary during female gametogenesis"
+Blood,Q7873,Q7873,en,blood,en,organic fluid which transports nutrients throughout the organism
+Gall bladder,Q64386,Q64386,en,gallbladder,en,organ in humans and other vertebrates
+Digit tip,Q41665734,Q105406713,en,Digit tip regeneration correlates with regions of Msx1 (Hox 7) expression in fetal and newborn mice.,en,scientific article published on April 1995
+Thryoid,Q39827315,Q16399,en,Thryoid control over biomembranes. Rat liver mitochondrial inner membranes.,en,scientific article
+Knee,Q37425,Q37425,en,knee,en,region around the kneecap
+Small intestine,Q11090,Q11090,en,small intestine,en,"part of the digestive tract, following the stomach and followed by the large intestine"
+Mammary gland,Q189961,Q189961,en,mammary gland,en,Exocrine gland in humans and other mammals
+Je junum,,Q185765,,,,
+Skin,Q1074,Q1074,en,skin,en,soft outer covering organ of vertebrates
+Pancreas,Q9618,Q9618,en,pancreas,en,glandular organ that plays a role in the digestive and endocrine systems of vertebrates
+Lumbar spinal cord,Q46943989,Q46943989,en,lumbar cord,,
+Wing,Q161358,Q161358,en,wing,en,surface used by birds/bats/insects/pterosaurs and airplanes/etc. for flight
+Root,Q111029,Q41500,en,root,en,"linguistic term -- indivisible part of word that does not have a prefix or a suffix, may have a meaning and be usable alone or not"
+Rectum,Q158716,Q158716,en,rectum,en,final section of intestines
+Esophagus,Q173710,Q173710,en,esophagus,en,organ in vertebrates
+Placenta,Q7200288,Q1212935,en,Placenta,en,peer-reviewed scientific journal
+Salivary glands,Q134938,Q134938,en,Salivary Gland,en,glands that produces saliva
+Uterus,Q9612,Q9612,en,uterus,en,major female hormone-responsive reproductive sex organ of most mammals including humans
+Eye,Q7364,Q7364,en,eye,en,organ that detects light and converts it into electro-chemical impulses in neurons
+Head,Q23640,Q23640,en,head,en,"anterior anatomical region in many animals, which tends to contain sensory and nervous organs and orifices for ingestion and breathing"
+Esophegus,,Q173710,,,,
+Gut,Q465922,Q9639,en,Gdańsk University of Technology,en,"University in Gdańsk, Poland"
+Embryo,Q33196,Q33196,en,embryo,en,multicellular diploid eukaryote in its earliest stage of development
+Kidney,Q9377,Q9377,en,kidney,en,"internal organ in most animals, including vertebrates and some invertebrates"
+Umbilical vein,Q1232438,Q1232438,en,umbilical vein,en,Vein running from the placenta to the fetus
+Culture,Q11042,Q189082,en,culture,en,society's way of life within anthropology
+Eye disc,Q24642121,-,en,"Eye discomfort, headache and back pain among Mayan Guatemalan women taking part in a randomised stove intervention trial",en,scientific article
+Aorta,Q101004,Q101004,en,aorta,en,largest artery in the body
+Cullture,,,,,,
+Calvaria,Q613203,Q613203,en,calvaria,en,upper part of the neurocranium that covers the cranial cavity containing the brain
+Stomach,Q1029907,Q1029907,en,stomach,en,digestive organ
+Fallopian tube,Q1233836,Q1233836,en,fallopian tube,en,part of the female reproductive organs
+Large intestine,Q11083,Q11083,en,large intestine,en,"last part of the digestive system in vertebrate animals, including the cecum, colon, rectum, and anal canal"
+Adrenal gland,Q712294,Q712294,en,adrenal gland,en,endocrine gland that produces a variety of hormones
+Intestine,Q9639,,en,intestine,en,alimentary canal of an animal through which food passes after having passed all stomachs
+Incisor growth region,,,,,,
+Lymph nodes,Q170758,Q170758,en,lymph node,en,organ of the lymphatic system
+Trachea,Q175449,Q175449,en,trachea,en,cartilaginous tube that connects the pharynx and larynx to the lungs
+Temporal lobe,Q744385,Q744385,en,temporal lobe,en,part of the brain
+Cerebellum,Q130983,Q130983,en,cerebellum,en,region of the brain that coordinates motor functions and muscle tone
+Brain,Q1073,Q1073,en,brain,en,organ that serves as the center of the nervous system in all vertebrate and most invertebrate animals
+Oesophagus,Q173710,Q173710,en,esophagus,en,organ in vertebrates
+Liver,Q9368,Q9368,en,liver,en,vital organ in vertebrates and some other animals
+Neural tube,Q1127402,Q1127402,en,neural tube,en,Developmental precursor to the central nervous system
+Fat,,Q193583,,,,
+Yolk sac,Q369887,Q369887,en,yolk sac,en,"membranous sac attached to an embryo, formed by cells of the hypoblast adjacent to the embryonic disk"
+Breast,Q9103,Q9103,en,breast,en,region of the torso of a primate containing the mammary gland
+Heart,Q1072,Q1072,en,heart,en,organ for the circulation of blood in animal circulatory systems
+Lung,Q7886,Q7886,en,lung,en,essential respiration organ in many air-breathing animals
+Retina,Q15753094,Q169342,en,Retina,en,journal
+Cervix,Q666412,Q666412,en,cervix,en,the lower part of the uterus in the human female reproductive system
+Testis,Q9384,Q9384,en,testicle,en,internal organ used in the male reproductive system
+Tumor,Q133212,Q133212,en,tumor,en,abnormal growth of tissue forming a mass
+Ovary,Q9631,Q9631,en,ovary,en,"ovum-producing reproductive organ, often found in pairs as part of the vertebrate female reproductive system"
+Organoid,Q11293125,Q11293125,en,organoid,en,miniaturized and simplified version of an organ
+Rib,Q196672,Q196672,en,rib,en,long curved bone surrounding the chest
+Colon,,Q5982337,,,,
+Leg,Q133105,Q133105,en,leg,en,"weight bearing and locomotive anatomical structure, usually having a columnar shape, function as ""extensible struts"""
+Cerebrospinal fluid,Q54196,Q54196,en,cerebrospinal fluid,en,clear colorless bodily fluid found in the brain and spine
+Skeletal muscle,Q1048687,Q1048687,en,skeletal striated muscle,en,one of three major muscle types
+Face,Q37017,Q37017,en,face,en,part of the body at the front of the head
+Chorionic villus,Q1076497,Q1076497,en,chorionic villus sampling,en,form of prenatal diagnosis
+Tibialis anterior,Q975054,Q975054,en,tibialis anterior muscle,,
+Kidney marrow,,Q105406852,,,,
+Neck,Q9633,Q9633,en,neck,en,"part of the body, on many terrestrial or secondarily aquatic vertebrates, that distinguishes the head from the torso or trunk"
+Muscle,Q7365,Q7365,en,muscle organ,en,contractile soft tissue of mammals
+Ear,Q7362,Q7362,en,ear,en,organ that detects sound; organ of hearing and balance
+Synovial tissue,Q43048512,Q2741512,en,Synovial tissue inflammation in early and late osteoarthritis.,en,scientific article published on 24 February 2005
+Gonad,Q213456,Q213456,en,gonad,en,endocrine gland that produces the gametes of an organism
+Testes,Q9384,Q9384,en,testicle,en,internal organ used in the male reproductive system
+Bile duct,Q851111,Q851111,en,bile ducts,en,type of organ
+Stria vascularis,Q1618109,Q1618109,en,stria vascularis,en,capillary or blood vessel in the wall of cochlear duct
+Thyroid,Q16399,Q16399,en,thyroid gland,en,endocrine gland in the neck; secretes hormones that influence metabolism
+Duodenum,Q134955,Q134955,en,duodenum,en,first section of the small intestine
+Partoid,,Q691653,,,,
+Airways,,Q13400765,,,,
+Tail,Q60960,Q60960,en,tail,en,rear appendage of organism
+PBMC,Q736033,Q736033,en,peripheral blood mononuclear cell,en,cell type
+Adipose,Q29728972,Q193583,en,adp,en,protein-coding gene in the species Drosophila melanogaster
+Decidua,Q2531387,Q2531387,en,Decidua,en,Decusua
+Tonsil,Q180569,Q180569,en,tonsil,en,Pair of lymph nodes at the back of the throat
+Lymp node,,Q170758,,,,
