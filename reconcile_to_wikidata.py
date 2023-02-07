@@ -3,54 +3,41 @@
 import os
 import pandas as pd
 from wikidata2df import wikidata2df
+from wdcuration import lookup_multiple_ids, query_wikidata
 
 today = "25_12_2021"
 
 
 def main():
 
-    os.system(
-        "wget -O data/sc_studies.csv https://docs.google.com/spreadsheets/d/e/2PACX-1vRlo0kIz4xPRjrFf575HbPBDRnuL_jClTCo3BkO5oMaP1sSyY-3c28Z5YDP26DfNUey3lsPNF5ydZiB/pub?gid=0&single=true&output=csv"
+    studies = pd.read_csv(
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vRlo0kIz4xPRjrFf575HbPBDRnuL_jClTCo3BkO5oMaP1sSyY-3c28Z5YDP26DfNUey3lsPNF5ydZiB/pub?gid=0&single=true&output=csv"
     )
-
-    studies = pd.read_csv("data/sc_studies.csv")
-
-    print(studies.head())
 
     cols_of_interest = ["DOI", "Organism", "Tissue", "Technique", "Data location"]
-
     studies = studies[cols_of_interest]
     studies["DOI"] = [doi.upper() for doi in studies["DOI"]]
+    wikidata_qids = lookup_multiple_ids(studies["DOI"], "P356", return_type="list")
+    query = """
+    SELECT 
+    DISTINCT 
+    (REPLACE(STR(?item), ".*Q", "Q") AS ?qid) 
+  WHERE {  
+    ?item wdt:P921 wd:Q105406038.
+    }
+    """
+    current_qids = query_wikidata(query)
+    current_qids = [a["qid"] for a in current_qids]
+    new_qids = []
 
-    reconciled_articles = pd.read_csv("reconciled_articles.csv")
-
-    new_studies = studies[
-        [doi not in reconciled_articles["DOI"] for doi in studies["DOI"]]
-    ]
-
-    doi_list = new_studies["DOI"]
-
-    dois_in_chunks = chunks(doi_list, 99)
-
-    df_now = pd.DataFrame(columns=["itemLabel", "normalized_doi", "item"])
-
-    for doi_list in dois_in_chunks:
-        df = get_doi_df(doi_list)
-        df_now = df_now.append(df)
-
-    studies = studies.merge(
-        df_now, left_on="DOI", right_on="normalized_doi", how="left"
-    )
-
-    studies.dropna(subset=["normalized_doi"]).to_csv(
-        "reconciled_articles.csv", sep="\t", index=False
-    )
-
+    for qid in wikidata_qids:
+        if qid not in current_qids:
+            new_qids.append(qid)
     ### Export Main Subject quickstatements
 
     with open(f"main_subject_scrnaseq_{today}.qs", "w") as f:
-        for i, row in new_studies.iterrows():
-            s = row["item"]
+        for qid in new_qids:
+            s = qid
             p = "P921"  # external data available at
             o = "Q105406038"
             rp1 = "S248"
